@@ -1,0 +1,24 @@
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+}
+
+.link {
+    background-color: rosybrown;
+    border-radius: 30px;
+    width: 60px;
+    box-shadow: grey;
+    padding: 20px;
+    margin: 20px;
+}
+
+.link:hover{
+    background-color: saddlebrown;
+    transform: scale(1.1);
+    box-shadow: saddlebrown;
+}
