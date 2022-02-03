@@ -12,6 +12,7 @@ const About:NextPage = () => {
                 <h1>Proud Owner</h1>
                 <h3>Ewa Bobik</h3>
                 <img src={'./ewa.JPG'} className={styles.pic}/>
+                <img src={'./ewa2.JPG'} className={styles.pic}/>
             </div>
             </body>
         </div>

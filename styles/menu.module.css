@@ -9,7 +9,7 @@
 }
 
 .link {
-    background-color: rosybrown;
+    background-color: #E0C097;
     border-radius: 30px;
     width: 60px;
     box-shadow: grey;
@@ -18,7 +18,7 @@
 }
 
 .link:hover{
-    background-color: saddlebrown;
+    background-color: #85603F;
     transform: scale(1.1);
-    box-shadow: saddlebrown;
+    box-shadow: 0 0 5px 2px #85603F;
 }
