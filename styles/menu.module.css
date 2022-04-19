@@ -1,24 +1,24 @@
-
 .menu{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     position: fixed;
     width: 10%;
+    max-width: 100px;
     height: 100%;
+    border-right: 1px solid #ddd;
+    box-shadow: 0 0 3px 1px #ddd;
+    background-color: white;
 }
 
-.link {
-    background-color: #E0C097;
-    border-radius: 30px;
-    width: 60px;
-    box-shadow: grey;
-    padding: 20px;
+.links {
     margin: 20px;
+    font-size: 40px;
+    color: #34435e;
 }
 
-.link:hover{
-    background-color: #85603F;
-    transform: scale(1.1);
-    box-shadow: 0 0 5px 2px #85603F;
+.links:hover {
+    transform: scale(1.5);
+    color: #B88E8D;
 }

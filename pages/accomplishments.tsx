@@ -10,13 +10,13 @@ const Accomplishments:NextPage = () =>{
             <Menu/>
             <body>
                 <div className={styles.wrapper}>
-                    <h1>Accomplishments</h1>
-                    <Accomp/>
-                    <Accomp/>
-                    <Accomp/>
-                    <Accomp/>
-                    <Accomp/>
-                    <Accomp/>
+                    <div className={styles.infoWrapper}>
+                        <div className={styles.info}>
+                            <p>{`Here are some the achievements I'm most proud of:`}</p>
+                            <li>Polish Champion</li>
+                            <li>tbd</li>
+                        </div>
+                    </div>
                 </div>
             </body>
         </div>

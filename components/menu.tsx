@@ -2,25 +2,29 @@ import React from "react";
 import {FC} from "react";
 import styles from "../styles/menu.module.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faHome, faPaw, faTrophy, faUser, faEnvelope} from "@fortawesome/free-solid-svg-icons";
+import HomeIcon from '@mui/icons-material/Home';
+import PersonIcon from '@mui/icons-material/Person';
+import PetsIcon from '@mui/icons-material/Pets';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import EmailIcon from '@mui/icons-material/Email';
 
 export const Menu: FC = () => {
     return(
             <nav className={styles.menu}>
-                <a className={styles.link} href={'/'}>
-                    <FontAwesomeIcon icon={faHome}/>
+                <a href={'/'} className={styles.linkWrap}>
+                    <HomeIcon className={styles.links}/>
                 </a>
-                <a className={styles.link} href={'/about'}>
-                    <FontAwesomeIcon icon={faUser}/>
+                <a href={'/about'}>
+                    <PersonIcon className={styles.links}/>
                 </a>
-                <a className={styles.link} href={'/roger'}>
-                    <FontAwesomeIcon icon={faPaw} href={'/roger'}/>
+                <a href={'/roger'}>
+                    <PetsIcon className={styles.links}/>
                 </a>
-                <a className={styles.link} href={'/accomplishments'}>
-                    <FontAwesomeIcon icon={faTrophy} href={'/accomplishments'}/>
+                <a href={'/accomplishments'}>
+                    <EmojiEventsIcon className={styles.links}/>
                 </a>
-                <a className={styles.link} href="mailto:ewabobik@gmail.com">
-                    <FontAwesomeIcon icon={faEnvelope}/>
+                <a href="mailto:ewabobik@gmail.com" target={"_blank"} rel={"noreferrer"}>
+                    <EmailIcon className={styles.links}/>
                 </a>
             </nav>
     );

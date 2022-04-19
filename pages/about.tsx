@@ -9,10 +9,11 @@ const About:NextPage = () => {
             <Menu/>
             <body>
             <div className={styles.wrapper}>
-                <h1>Proud Owner</h1>
-                <h3>Ewa Bobik</h3>
+                <div className={styles.infoWrapper}>
                 <img src={'./ewa.JPG'} className={styles.pic}/>
+                <div className={styles.info}> My mom Ewa loves me very much. She takes me on the adventures and plays with me all the time!</div>
                 <img src={'./ewa2.JPG'} className={styles.pic}/>
+                </div>
             </div>
             </body>
         </div>
